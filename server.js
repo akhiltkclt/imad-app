@@ -24,7 +24,7 @@ function createTemplate(data){
 }
 
 
-var htmltemplate=`<html>
+var htmlTemplate=`<html>
     <head>
         <title>${title}</title>
         <meta name="viewport"content="width=device-width,initial-scale=1"/>
@@ -46,7 +46,7 @@ var htmltemplate=`<html>
 </html>
 `;
     
-    return htmltemplate;
+    return htmlTemplate;
     
 
 
