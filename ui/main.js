@@ -9,6 +9,12 @@ element.innerHTML='This is my new value';
 //move image
 
 var img= document.getElementById('img-id');
+function moveRight(){
+    marginLeft=marginLeft+1;
+    img.stye.marginLeft=marginLeft+'px';
+}
 img.onclick=function(){
-    img.style.marginLeft='200px';
+    
+    var interval=setInterval(moveRight,50)
+    ;
 };
