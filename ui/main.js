@@ -12,7 +12,7 @@ var img= document.getElementById('img-id');
 var marginLeft=0;
 function moveRight(){
     marginLeft=marginLeft+1;
-    img.stye.marginLeft=marginLeft+'px';
+    img.style.marginLeft=marginLeft +'px';
 }
 img.onclick=function(){
     
